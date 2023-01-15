@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MesajGonder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesaj Gonder"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginVertical="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="Gruplar" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grup_listesi"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secili Grup"
+            android:textSize="35dp"
+            style="bold"
+            android:id="@+id/secili_grup"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="Mesajlar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mesaj_listesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secili Mesaj"
+            android:textSize="35dp"
+            style="bold"
+            android:id="@+id/secili_mesaj"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesaj Gonder"
+            android:id="@+id/mesaj_gonder"
+            android:layout_marginVertical="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_gravity="center"
+            android:text="201913709023 - Kadir Furkan Guler" />
+    </LinearLayout>
+</FrameLayout>

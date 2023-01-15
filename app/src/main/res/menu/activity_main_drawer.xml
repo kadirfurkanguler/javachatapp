@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create_group"
+            android:title="Grup Olustur" />
+        <item
+            android:id="@+id/nav_add_member"
+            android:title="Gruba uye ekle" />
+        <item
+            android:id="@+id/nav_create_message"
+            android:title="Mesaj Olustur" />
+        <item
+                android:id="@+id/nav_send_message"
+            android:title="Mesaj Gonder" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Cikis Yap" />
+    </group>
+</menu>

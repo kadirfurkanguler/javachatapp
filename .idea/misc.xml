@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_gruba_uye_ekle.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/fragment_grup_olustur.xml" value="0.2617753623188406" />
+        <entry key="app/src/main/res/layout/fragment_mesaj_gonder.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_mesaj_olustur.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/gruplar.xml" value="0.24954710144927536" />
+        <entry key="app/src/main/res/layout/grupuseritemekle.xml" value="0.27760416666666665" />
+        <entry key="app/src/main/res/layout/homemessageitem.xml" value="0.16489361702127658" />
+        <entry key="app/src/main/res/layout/mesajgondergrup.xml" value="0.16489361702127658" />
+        <entry key="app/src/main/res/layout/messageitem.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/rehberitem.xml" value="0.27760416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

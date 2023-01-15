@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_create_group">
+
+    <fragment
+        android:id="@+id/nav_create_group"
+        android:name="com.example.chatappfinal.GrupOlustur"
+        android:label="Grup olustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/nav_add_member"
+        android:name="com.example.chatappfinal.GrubaUyeEkle"
+        android:label="Gruba uye Ekle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+    <fragment
+        android:id="@+id/nav_create_message"
+        android:name="com.example.chatappfinal.MesajOlustur"
+        android:label="Mesaj Olustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+    <fragment
+        android:id="@+id/nav_send_message"
+        android:name="com.example.chatappfinal.MesajGonder"
+        android:label="Mesaj Gonder"
+        tools:layout="@layout/fragment_mesaj_gonder" />
+</navigation>
